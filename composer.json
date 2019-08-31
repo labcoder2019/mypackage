@@ -11,5 +11,12 @@
         "psr-4": {
             "Labcoder2019\\MyPackage\\" : "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Labcoder2019\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
     }
 }
